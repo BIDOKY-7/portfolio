@@ -1,0 +1,194 @@
+* {
+   margin: 0;
+   box-sizing: border-box;
+   cursor: initial;
+   background-color: rgb(255, 255, 253);
+   overflow: hidden;
+   background-color: black;
+   color: skyblue;
+   font-style: italic;
+}
+
+body {
+   padding: 20px 200px 0px 200px;
+   /* background-image: linear-gradient(to bottom, red, green);
+    */
+}
+
+
+main {
+   padding-bottom: 100px;
+}
+
+h1 {
+   padding-bottom: 20px;
+}
+
+nav {
+   color: skyblue;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px 0px 5px 0px;
+   padding-bottom: 90px;
+}
+
+.BIDOKY {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+
+}
+
+.Cruz {
+   font-size: larger;
+   background-color: skyblue;
+   border-radius: 50%;
+   color: white;
+   padding: 20px;
+   height: 35px;
+   width: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Dyllon {
+   display: flex;
+   justify-content: space-between;
+   text-decoration: none;
+   align-content: space-between;
+   margin-bottom: 2px solid white;
+   cursor: pointer;
+}
+
+.Fisix {
+   display: flex;
+   justify-content: space-evenly;
+   justify-content: space-between;
+   padding: 10px;
+   align-items: center;
+   gap: 20px;
+   list-style: none;
+   cursor: pointer;
+   padding-bottom: 10px;
+}
+
+.hamburger {
+   display: none;
+}
+
+.hamburger img  {
+   width: 15px;
+   height: 15px;
+}
+
+.Garvey {
+   text-decoration: none;
+   flex-direction: column;
+   justify-content: space-between;
+   list-style: none;
+   position: relative;
+   cursor: pointer;
+}
+
+.list1 {
+   position: relative;
+   background-color: skyblue;
+   border: 100px;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+.hero {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+   height: 500px;
+}
+
+.Nife {
+   display: flex;
+   list-style: none;
+   gap: 20px;
+   padding-top: 174px;
+}
+
+
+.Mazuka {
+   background-color: skyblue;
+   box-sizing: content-box;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+
+.Jinny {
+   font-size: xxx-large;
+}
+
+.Kectrix {
+   font-size: medium;
+   padding-bottom: 30px;
+}
+
+
+
+.Hijak {
+   padding-right: 30px;
+}
+
+
+
+
+@media (max-width: 475px) {
+   * {
+      overflow-y: auto;
+   }
+   
+body {
+   padding:0px;
+   /* background-image: linear-gradient(to bottom, red, green);
+    */
+}
+   .Dyllon {
+      display: none;
+   
+   }
+
+   .hero {
+      grid-template-columns: 1fr;
+   }
+
+   img {
+   height: 500px;
+}
+
+.Nife {
+   display: flex;
+   list-style: none;
+   gap: 20px;
+   padding-top: 14px;
+   margin-bottom: 14px;
+}
+
+.hamburger {
+   display: flex;
+   background-color: white;
+}
+}
+
+
+
+
+
+
+
