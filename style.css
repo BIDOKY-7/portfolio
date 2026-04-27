@@ -3,7 +3,6 @@
    box-sizing: border-box;
    cursor: initial;
    background-color: rgb(255, 255, 253);
-   overflow: hidden;
    background-color: black;
    color: skyblue;
    font-style: italic;
@@ -110,6 +109,7 @@ nav {
 
 img {
    height: 500px;
+   width: 100%;
 }
 
 .Nife {
