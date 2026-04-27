@@ -169,7 +169,8 @@ body {
    }
 
    img {
-   height: 500px;
+   height: 100%;
+   width: auto;
 }
 
 .Nife {
